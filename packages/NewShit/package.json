@@ -1,9 +1,9 @@
 {
   "name": "@quilt/newshit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@quilt/breadcrumb": "^1.8.0"
+    "@quilt/breadcrumb": "^1.8.1"
   }
 }
