@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
     "noEmit": true,
     "strict": true,
     "jsx": "react",
