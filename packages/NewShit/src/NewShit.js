@@ -1,6 +1,6 @@
 import { Breadcrumb } from '@quilt/breadcrumb';
 import * as React from 'react';
-import "./NewShit.scss";
+import './NewShit.scss';
 const NewShit = (props) => {
     return (React.createElement(Breadcrumb, { separator: ">", separatorColour: "#FFA500" },
         "root",

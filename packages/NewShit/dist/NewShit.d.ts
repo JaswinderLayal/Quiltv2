@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import "./NewShit.scss";
+import './NewShit.scss';
 interface IProps {
     name: string;
 }
