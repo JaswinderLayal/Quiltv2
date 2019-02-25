@@ -1,13 +1,13 @@
 {
   "name": "@quilt/row",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "lerna exec --parallel 'BABEL_ENV=build babel src --root-mode upward --out-dir dist --copy-files --source-maps --extensions .ts,.tsx --delete-dir-on-start --no-comments'"
   },
   "dependencies": {
-    "@quilt/breadcrumb": "^1.7.0"
+    "@quilt/breadcrumb": "^1.8.0"
   },
   "peerDependencies": {
     "react": "^16.8.3"

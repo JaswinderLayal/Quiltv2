@@ -1,7 +1,6 @@
-
 {
   "name": "@quilt/newshit",
-  "version": "1.0",
+  "version": null,
   "main": "dist/index.js",
   "types": "dist/index.d.ts"
 }
