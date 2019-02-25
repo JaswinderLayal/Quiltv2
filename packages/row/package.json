@@ -1,0 +1,12 @@
+{
+  "name": "@quilt/row",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@quilt/breadcrumb": "^1.7.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3"
+  }
+}

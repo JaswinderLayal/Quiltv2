@@ -1,0 +1,6 @@
+52 error Error: Command failed: git push --follow-tags --no-verify origin master
+52 error remote: Invalid username or password.
+52 error fatal: Authentication failed for 'https://github.com/JaswinderLayal/LernaTut.git/'
+52 error
+52 error     at makeError (/Users/jaswindersinghlayal/Desktop/practice/lernaTesting/node_modules/execa/index.js:174:9)
+52 error     at Promise.all.then.arr (/Users/jaswindersinghlayal/Desktop/practice/lernaTesting/node_modules/execa/index.js:278:16)

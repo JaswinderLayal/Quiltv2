@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# Built files
+/build
+
+# Built doc pages
+/lib/js/pages
+/lib/sass/pages
+/lib/index.js
+/lib/index.html
+/lib/sass
+
+# VS Code
+.vscode
+.history
+
+#intellij idea
+.idea/
