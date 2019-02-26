@@ -1,7 +1,7 @@
 import * as React from 'react';
-import './index.scss';
+import './Breadcrumb.scss';
 interface IProps {
-  children: any[];
+  children: React.ReactNode[];
   separator?: string;
   separatorColour?: string;
   dataTrackClick?: string;
@@ -9,7 +9,13 @@ interface IProps {
 }
 
 const Breadcrumb = (props: IProps) => {
-  const { children, separator, separatorColour, dataTrackClick, dataTrackId } = props;
+  const {
+    children,
+    separator,
+    separatorColour,
+    dataTrackClick,
+    dataTrackId
+  } = props;
   const divider = separator ? separator : '\\';
   return (
     <div className="quilt-breadcrumb">

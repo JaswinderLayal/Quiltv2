@@ -15,7 +15,7 @@ module.exports = {
       extends: './babel.config.js',
     },
   },
-  moduleFileExtensions: ['ts', 'tsx', 'js'],
+  moduleFileExtensions: ['ts', 'tsx', 'js','jsx'],
   notify: true,
   notifyMode: 'always',
   roots: ['<rootDir>packages'],
@@ -23,5 +23,5 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  setupTestFrameworkScriptFile: '<rootDir>jest/setupTests.ts',
+  setupFiles: ['<rootDir>/jest/setupTests.ts'],
 };

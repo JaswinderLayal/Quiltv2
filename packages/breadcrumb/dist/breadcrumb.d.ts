@@ -1,7 +1,7 @@
-/// <reference types="react" />
-import './index.scss';
+import * as React from 'react';
+import './Breadcrumb.scss';
 interface IProps {
-    children: any[];
+    children: React.ReactNode[];
     separator?: string;
     separatorColour?: string;
     dataTrackClick?: string;

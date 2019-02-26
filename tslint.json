@@ -1,21 +1,29 @@
 {
+  "defaultSeverity": "error",
   "extends": [
-    "tslint:latest",
+    "tslint-config-airbnb",
     "tslint-react",
-    "tslint-plugin-prettier",
+    "tslint-react-a11y",
     "tslint-config-prettier"
   ],
+  "jsRules": {},
   "rules": {
     "prettier": true,
-    "quotemark": [
+    "import-name": false,
+    "no-boolean-literal-compare":true,
+    "no-submodule-imports": [
       true,
-      "single",
-      "avoid-escape",
-      "avoid-template",
-      "jsx-double"
-    ]
+      "next",
+      "lodash",
+      "date-fns",
+      "react-markdown",
+      "client",
+      "server"
+    ],
+    "no-console": true,
+    "no-debugger": true,
+    "variable-name": [true, "allow-pascal-case"],
+    "curly": [true, "ignore-same-line"]
   },
-  "linterOptions": {
-    "exclude": ["**/*.d.ts"]
-  }
+  "rulesDirectory": ["tslint-plugin-prettier"]
 }

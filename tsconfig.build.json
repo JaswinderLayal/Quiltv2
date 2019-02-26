@@ -2,8 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
+    "emitDeclarationOnly": true,
     "declaration": true
   },
-  "exclude": ["**/*.test.*", "dist"],
-  "include": ["packages"]
+  "include": [],
+  "exclude": ["**/*.test.*", "dist"]
 }

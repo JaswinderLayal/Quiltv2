@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA","sourcesContent":["export { default as Breadcrumb } from './breadcrumb';\n"],"file":"index.js"}
+{"version":3,"sources":["../src/index.tsx"],"names":[],"mappings":";;;;;;;;;;;;AAAA","sourcesContent":["export { default as Breadcrumb } from './Breadcrumb';\n"],"file":"index.js"}
